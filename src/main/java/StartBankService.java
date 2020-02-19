@@ -1,4 +1,5 @@
 import documents.CreditDocument;
+import documents.DepositDocument;
 import services.DocumentMaker;
 import services.CurrencyExchanger;
 
