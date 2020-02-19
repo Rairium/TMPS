@@ -21,7 +21,7 @@ public class StartBankService {
         CreditDocument creditDocument = new CreditDocument();
         creditDocument.setDate("Today");
         creditDocument.setSignature("Gutu");
-        CreditDocument clonedCreditDocument = (CreditDocument) documentMaker.getClone(creditDocument);
+        CreditDocument clonedCreditDocument = (CreditDocument) documentMaker.getClonedDocument(creditDocument);
         System.out.println(clonedCreditDocument.getDate());
         System.out.println(clonedCreditDocument.getSignature());
     }

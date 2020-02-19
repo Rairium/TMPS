@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40c41c4b-7de3-4089-b46a-157ca1097b59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/StartBankService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StartBankService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exchange/Exchanger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/DocumentMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/DocumentMaker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/StartBankService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/StartBankService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/exchange/Exchanger.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +85,7 @@
       <workItem from="1582055611864" duration="741000" />
       <workItem from="1582124880416" duration="911000" />
       <workItem from="1582138877252" duration="2020000" />
-      <workItem from="1582142190108" duration="2183000" />
+      <workItem from="1582142190108" duration="2442000" />
     </task>
     <servers />
   </component>
@@ -118,6 +113,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="566" y="272" width="403" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1582141676221" />
+    <state x="571" y="275" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1582144616129">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="571" y="275" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/0.0.1536.824@0.0.1536.824" timestamp="1582144616129" />
     <state x="468" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582141842125">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -126,22 +125,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582140568808" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1582144348021">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1582144587439">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582144348021" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1582144348021">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582144587439" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1582144587439">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582144348021" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1582144348021">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582144587439" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1582144587439">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582144348021" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1582144348021">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582144587439" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1582144587439">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582144348021" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582144587439" />
     <state x="299" y="68" key="Maven.ArtifactSearchDialog" timestamp="1582142864812">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
