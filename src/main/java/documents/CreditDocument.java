@@ -3,6 +3,10 @@ package documents;
 public class CreditDocument extends BankDocument implements CloneableDocument {
     private String garantPersonName;
 
+    public CreditDocument(){
+        System.out.println("I was created");
+    }
+
     public CloneableDocument makeCopy() {
         CreditDocument creditDocument = null;
         try {
