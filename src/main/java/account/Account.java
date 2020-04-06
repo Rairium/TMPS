@@ -7,8 +7,8 @@ public class Account extends AccountCreator {
         super(profile);
     }
 
-    public String watchProfile() {
-        return "This account is with a " + profile.getProfile();
+    public void watchProfile() {
+        System.out.println("This account is with a " + profile.getProfile());
     }
 
     public void watchAccountData() {
@@ -18,9 +18,16 @@ public class Account extends AccountCreator {
         System.out.println(this.accountData.getName());
         System.out.println(this.accountData.getSurname());
         System.out.println(this.accountData.getPhone());
+        System.out.println(this.accountData.getPassword());
+        System.out.println(this.accountData.getAmount());
+    }
+
+    public AccountData getAccountData() {
+        return this.accountData;
     }
 
     public void setAccountData(AccountData accountData) {
         this.accountData = accountData;
     }
+
 }

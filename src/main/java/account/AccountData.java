@@ -9,6 +9,8 @@ public class AccountData {
     private final String name;
     private final String surname;
     private final String phone;
+    private final String password;
+    private final Double amount;
 
     private AccountData(AccountBuilder builder) {
         this.id = builder.id;
@@ -17,6 +19,8 @@ public class AccountData {
         this.name = builder.name;
         this.surname = builder.surname;
         this.phone = builder.phone;
+        this.password = builder.password;
+        this.amount = builder.amount;
     }
 
     public static class AccountBuilder {
@@ -26,6 +30,8 @@ public class AccountData {
         private String name;
         private String surname;
         private String phone;
+        private String password;
+        private Double amount = 0d;
 
         public AccountBuilder email(final String email) {
             this.email = email;
@@ -52,14 +58,38 @@ public class AccountData {
             return this;
         }
 
+        public AccountBuilder password(final String password) {
+            this.password = password;
+            return this;
+        }
+
         public AccountBuilder id(final int id) {
             this.id = id;
             return this;
         }
-        public AccountData build(){
+
+        public AccountBuilder amount(final Double amount) {
+            this.amount = amount;
+            return this;
+        }
+
+        public AccountBuilder accountBuilder(AccountData accountData){
+            this.password = accountData.getPassword();
+            this.amount = accountData.getAmount();
+            this.id = accountData.getId();
+            this.email = accountData.getEmail();
+            this.location = accountData.getLocation();
+            this.name = accountData.getName();
+            this.surname = accountData.getSurname();
+            this.phone = accountData.getPhone();
+            return this;
+        }
+
+        public AccountData build() {
             return new AccountData(this);
         }
     }
+
     public int getId() {
         return id;
     }
@@ -82,5 +112,13 @@ public class AccountData {
 
     public String getPhone() {
         return phone;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public Double getAmount() {
+        return amount;
     }
 }

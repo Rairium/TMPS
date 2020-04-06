@@ -4,13 +4,14 @@ public class CreditDocument extends BankDocument implements CloneableDocument {
     private String garantPersonName;
 
     public CreditDocument(){
-        System.out.println("I was created");
+        this.setDocumentId(BankDocument.getNewDocumentId());
     }
 
     public CloneableDocument makeCopy() {
         CreditDocument creditDocument = null;
         try {
             creditDocument = (CreditDocument) super.clone();
+            creditDocument.setDocumentId(BankDocument.getNewDocumentId());
         } catch (CloneNotSupportedException e) {
             e.printStackTrace();
         }
