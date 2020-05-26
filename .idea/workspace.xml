@@ -2,22 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40c41c4b-7de3-4089-b46a-157ca1097b59" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/StartBankService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StartBankService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/account/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/account/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/account/AccountCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/account/AccountCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/account/AccountData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/account/AccountData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/documents/BankDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/documents/BankDocument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/documents/CreditDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/documents/CreditDocument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/documents/DepositDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/documents/DepositDocument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/facade/BankFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/facade/BankFacade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/StartBankService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/StartBankService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/account/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/account/Account.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/account/AccountCreator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/account/AccountCreator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/account/AccountData$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/account/AccountData$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/account/AccountData$AccountBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/account/AccountData$AccountBuilder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/account/AccountData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/account/AccountData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/account/Profile/ClientList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/account/Profile/ClientList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/account/Profile/GoldenProfile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/account/Profile/GoldenProfile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/account/Profile/PlatinumProfile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/account/Profile/PlatinumProfile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/account/Profile/Profilable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/account/Profile/Profilable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/account/Profile/SimpleProfile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/account/Profile/SimpleProfile.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/documents/BankDocument.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/documents/BankDocument.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/documents/CloneableDocument.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/documents/CloneableDocument.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/documents/CreditDocument.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/documents/CreditDocument.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/documents/DepositDocument.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/documents/DepositDocument.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/documents/TransferDocument.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/documents/TransferDocument.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/exceptions/AccountDataNotFound.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exceptions/AccountDataNotFound.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/facade/BankFacade.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/facade/BankFacade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/facade/WelcomeToBank.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/facade/WelcomeToBank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/locations/ATM.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/locations/ATM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/locations/Branch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/locations/Branch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/locations/Location.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/locations/Location.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/persons/Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/persons/Worker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/persons/clients/AmazonCompany.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/persons/clients/AmazonCompany.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/persons/clients/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/persons/clients/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/persons/clients/MicrosoftCompany.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/persons/clients/MicrosoftCompany.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/AccountController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/AccountController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/CurrencyExchanger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/CurrencyExchanger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/DocumentMaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/DocumentMaker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/TransactionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/TransactionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/ValuteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/ValuteController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/exchanger/ExchangeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/exchanger/ExchangeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/transactions/CreditTransaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/transactions/CreditTransaction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/transactions/DepositTransaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/transactions/DepositTransaction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/transactions/Transaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/transactions/Transaction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/transactions/TransferTransaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/transactions/TransferTransaction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/transactions/mediators/CreditMediator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/transactions/mediators/CreditMediator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/transactions/mediators/DepositMediator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/transactions/mediators/DepositMediator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/transactions/mediators/InitialMediator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/transactions/mediators/InitialMediator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/transactions/mediators/ServiceMediator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/transactions/mediators/ServiceMediator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/transactions/mediators/TransferMediator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/transactions/mediators/TransferMediator.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +58,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -39,6 +70,7 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
@@ -56,31 +88,97 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="Location" />
-      <recent name="" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\UTM\UTMVERSION6\TMPS\src\main\services" />
-      <recent name="D:\UTM\UTMVERSION6\TMPS\src\main\Services" />
+      <recent name="D:\UTM\UTMVERSION6\TMPS\src\main\resources" />
+      <recent name="D:\UTM\UTMVERSION6\TMPS\src\main\resources\images" />
+      <recent name="D:\UTM\UTMVERSION6\TMPS\src\main\resources\styles" />
+      <recent name="D:\UTM\UTMVERSION6\TMPS\src\main\resources\views" />
+      <recent name="D:\UTM\UTMVERSION6\TMPS\src\main\java\appInterface\views" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="Location" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\UTM\UTMVERSION6\TMPS\src\main\java\appInterface\controllers" />
+      <recent name="D:\UTM\UTMVERSION6\TMPS\src\main\resources" />
+      <recent name="D:\UTM\UTMVERSION6\TMPS\src\main\resources\views" />
+      <recent name="D:\UTM\UTMVERSION6\TMPS\src\main\java\gui" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="StartBankService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StartBankService" />
+  <component name="RunManager" selected="Application.LoginForm (1)">
+    <configuration name="LoginForm (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="appInterface.forms.LoginForm" />
+      <module name="Bank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="appInterface.forms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GUIviewer.controllers.LoginForm" />
+      <module name="Bank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gui.MainApp" />
+      <module name="Bank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="STARTAPP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="STARTAPP" />
       <module name="Bank" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StartGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StartGUI" />
+      <module name="Bank" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.StartGUI" />
+      <item itemvalue="Application.MainApp" />
+      <item itemvalue="Application.LoginForm" />
+      <item itemvalue="Application.LoginForm (1)" />
+      <item itemvalue="Application.STARTAPP" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StartBankService" />
+        <item itemvalue="Application.LoginForm (1)" />
+        <item itemvalue="Application.STARTAPP" />
+        <item itemvalue="Application.LoginForm" />
+        <item itemvalue="Application.StartGUI" />
+        <item itemvalue="Application.MainApp" />
       </list>
     </recent_temporary>
   </component>
@@ -108,6 +206,31 @@
       <workItem from="1585334076352" duration="2027000" />
       <workItem from="1586107451264" duration="26649000" />
       <workItem from="1586179156075" duration="8896000" />
+      <workItem from="1586281126226" duration="5691000" />
+      <workItem from="1586354250507" duration="666000" />
+      <workItem from="1586367377730" duration="1296000" />
+      <workItem from="1586893625064" duration="742000" />
+      <workItem from="1586899293048" duration="653000" />
+      <workItem from="1586903890951" duration="11000" />
+      <workItem from="1586910891425" duration="2703000" />
+      <workItem from="1586955875582" duration="787000" />
+      <workItem from="1586958763834" duration="1762000" />
+      <workItem from="1587038257596" duration="21000" />
+      <workItem from="1588255956750" duration="538000" />
+      <workItem from="1588358593782" duration="2653000" />
+      <workItem from="1588456582184" duration="5356000" />
+      <workItem from="1588584823188" duration="109000" />
+      <workItem from="1588586886884" duration="13000" />
+      <workItem from="1589922122066" duration="1307000" />
+      <workItem from="1589993495458" duration="11420000" />
+      <workItem from="1590065060657" duration="9754000" />
+      <workItem from="1590339195046" duration="4682000" />
+      <workItem from="1590350754010" duration="7653000" />
+      <workItem from="1590364943351" duration="3993000" />
+      <workItem from="1590415615689" duration="737000" />
+      <workItem from="1590436700908" duration="11654000" />
+      <workItem from="1590485798458" duration="17216000" />
+      <workItem from="1590520778284" duration="13290000" />
     </task>
     <servers />
   </component>
@@ -119,26 +242,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="70" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1582142302566" />
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582145507447">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590350591858">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1582145507447" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1590350591858" />
     <state x="525" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582141383761">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="525" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1582141383761" />
-    <state x="574" y="97" key="#com.intellij.ide.util.MemberChooser" timestamp="1586184620104">
+    <state x="574" y="97" key="#com.intellij.ide.util.MemberChooser" timestamp="1590524702895">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="97" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1586184620104" />
+    <state x="574" y="97" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1590524702895" />
     <state x="477" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1582141503392">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="477" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1582141503392" />
-    <state x="566" y="272" width="403" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582141676221">
+    <state x="566" y="272" width="403" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1590359318766">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="566" y="272" width="403" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1582141676221" />
+    <state x="566" y="272" width="403" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1590359318766" />
     <state x="571" y="275" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1582144616129">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -147,70 +270,74 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="468" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1586179993551" />
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582179710049">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590495871241">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1582179710049" />
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1585334168664">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1590495871241" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1590448270938">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585334168664" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1586189783421">
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590448270938" />
+    <state width="1493" height="264" key="GridCell.Tab.0.bottom" timestamp="1590533912381">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586189783421" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1586189783421">
+    <state width="1493" height="264" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590533912381" />
+    <state width="1493" height="264" key="GridCell.Tab.0.center" timestamp="1590533912381">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586189783421" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1586189783421">
+    <state width="1493" height="264" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590533912381" />
+    <state width="1493" height="264" key="GridCell.Tab.0.left" timestamp="1590533912381">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586189783421" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1586189783421">
+    <state width="1493" height="264" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590533912381" />
+    <state width="1493" height="264" key="GridCell.Tab.0.right" timestamp="1590533912381">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586189783421" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1586189783421">
+    <state width="1493" height="264" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590533912381" />
+    <state width="1493" height="275" key="GridCell.Tab.1.bottom" timestamp="1590523637258">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586189783421" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1586189783421">
+    <state width="1493" height="275" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590523637258" />
+    <state width="1493" height="275" key="GridCell.Tab.1.center" timestamp="1590523637258">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586189783421" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1586189783421">
+    <state width="1493" height="275" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1590523637258" />
+    <state width="1493" height="275" key="GridCell.Tab.1.left" timestamp="1590523637258">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586189783421" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1586189783421">
+    <state width="1493" height="275" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1590523637258" />
+    <state width="1493" height="275" key="GridCell.Tab.1.right" timestamp="1590523637258">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586189783421" />
+    <state width="1493" height="275" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1590523637258" />
     <state x="299" y="68" key="Maven.ArtifactSearchDialog" timestamp="1582142864812">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="299" y="68" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1582142864812" />
-    <state x="277" y="0" key="SettingsEditor" timestamp="1581576025301">
+    <state x="277" y="0" key="SettingsEditor" timestamp="1590449335657">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581576025301" />
-    <state x="465" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1586179261311">
+    <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1590449335657" />
+    <state x="465" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1590520778673">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586179261311" />
+    <state x="465" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1590520778673" />
+    <state x="540" y="115" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1590495372677">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="540" y="115" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1590495372677" />
     <state x="499" y="178" key="extract.method.dialog" timestamp="1586138145866">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="178" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1586138145866" />
-    <state x="463" y="144" width="609" height="536" key="find.popup" timestamp="1586182740898">
+    <state x="463" y="144" width="611" height="536" key="find.popup" timestamp="1590525124861">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="463" y="144" width="609" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1586182740898" />
-    <state x="209" y="107" key="new project wizard" timestamp="1586131435586">
+    <state x="463" y="144" width="611" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1590525124861" />
+    <state x="209" y="107" key="new project wizard" timestamp="1590351432540">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="209" y="107" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1586131435586" />
+    <state x="209" y="107" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1590351432540" />
     <state x="475" y="40" key="refactoring.ChangeSignatureDialog" timestamp="1586141545209">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -8,10 +8,12 @@ import documents.CreditDocument;
 import documents.DepositDocument;
 import documents.TransferDocument;
 import facade.BankFacade;
+import gui.MainFrame;
 import locations.Location;
 import persons.Worker;
 import persons.clients.AmazonCompany;
 import persons.clients.MicrosoftCompany;
+import persons.clients.SimpleClient;
 import services.DocumentMaker;
 import services.CurrencyExchanger;
 import services.transactions.mediators.CreditMediator;
@@ -19,8 +21,10 @@ import services.transactions.mediators.DepositMediator;
 import services.transactions.mediators.InitialMediator;
 import services.transactions.mediators.TransferMediator;
 
+import javax.swing.*;
+
 public class StartBankService {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         CurrencyExchanger currencyExchanger = CurrencyExchanger.getInstance();
         currencyExchanger.setCurrency("USD", 0.06d);
         currencyExchanger.setCurrency("Leu", 1d);
@@ -85,7 +89,7 @@ public class StartBankService {
         transferDocument.setAmount(2000d);
         transferDocument.setTransferType("P2P");
         transferDocument.setClientName("My Client");
-        InitialMediator initialMediator = new InitialMediator();
+        final InitialMediator initialMediator = new InitialMediator();
         CreditMediator creditMediator = new CreditMediator();
         DepositMediator depositMediator = new DepositMediator();
         TransferMediator transferMediator = new TransferMediator();
@@ -144,31 +148,31 @@ public class StartBankService {
         microsoftClient.viewTransactionList(transferMediator.getTransactionStock());
         System.out.println("---------------------------------------");
         // ---------------------------------------------------
-        ClientList clientList = ClientList.getInstance();
+        final ClientList clientList = ClientList.getInstance();
         clientList.setClientInList(microsoftClient);
         clientList.setClientInList(amazonClient);
         microsoftClient.setAccount(simpleAccount);
-        BankFacade accessingBank = new BankFacade("gutsueric@gmail.com", "root");
-        accessingBank.getAccountInfo();
-        accessingBank.addMoney(2000d);
-        accessingBank.viewBalance();
-        accessingBank.withdrawMoney(2500d);
-        accessingBank.viewBalance();
-        accessingBank.withdrawMoney(1500d);
-        accessingBank.withdrawMoney(1500d);
-        accessingBank.withdrawMoney(1500d);
-        accessingBank.viewBalance();
-        accessingBank.withdrawMoney(1500d);
-        accessingBank.viewBalance();
-        accessingBank.addMoney(50000d);
-        accessingBank.viewBalance();
-        accessingBank.exchangeMoney("Leu", "Euro", 500d);
-        accessingBank.viewBalance();
-        accessingBank.viewBalance();
-        accessingBank.viewBalance();
-        accessingBank.viewBalance();
-        accessingBank.createTransaction(clonedCreditDocument2);
-        accessingBank.viewTransactionList(creditMediator.getTransactionStock());
-        accessingBank.getAccountInfo();
+//        BankFacade accessingBank = new BankFacade("gutsueric@gmail.com", "root");
+//        accessingBank.getAccountInfo();
+//        accessingBank.addMoney(2000d);
+//        accessingBank.viewBalance();
+//        accessingBank.withdrawMoney(2500d);
+//        accessingBank.viewBalance();
+//        accessingBank.withdrawMoney(1500d);
+//        accessingBank.withdrawMoney(1500d);
+//        accessingBank.withdrawMoney(1500d);
+//        accessingBank.viewBalance();
+//        accessingBank.withdrawMoney(1500d);
+//        accessingBank.viewBalance();
+//        accessingBank.addMoney(50000d);
+//        accessingBank.viewBalance();
+//        accessingBank.exchangeMoney("Leu", "Euro", 500d);
+//        accessingBank.viewBalance();
+//        accessingBank.viewBalance();
+//        accessingBank.viewBalance();
+//        accessingBank.viewBalance();
+//        accessingBank.createTransaction(clonedCreditDocument2);
+//        accessingBank.viewTransactionList(creditMediator.getTransactionStock());
+//        accessingBank.getAccountInfo();
     }
 }

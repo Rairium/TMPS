@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox style="-fx-background-color: transparent;" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="appInterface.controllers.SignupFormController">
+    <children>
+        <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="599.0" prefWidth="929.0">
+            <children>
+                <HBox layoutX="14.0" layoutY="14.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                    </padding>
+                    <children>
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: Palatino; -fx-font-weight: bolder; -fx-font-size: 2.4em; -fx-fill: white;" text="Gutu Eric" textAlignment="CENTER" />
+                        <HBox alignment="TOP_RIGHT" HBox.hgrow="ALWAYS">
+                            <children>
+                                <Button fx:id="signupButton" mnemonicParsing="false" style="-fx-background-color: transparent; -fx-text-fill: white; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: white; -fx-font-size: 1.5em;" text="Signup">
+                                    <HBox.margin>
+                                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                    </HBox.margin>
+                                </Button>
+                                <Button fx:id="loginButton" mnemonicParsing="false" onMouseClicked="#goToLogin" style="-fx-background-color: transparent; -fx-text-fill: white; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: white; -fx-font-size: 1.5em;" text="Login">
+                                    <HBox.margin>
+                                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                    </HBox.margin>
+                                </Button>
+                                <Label alignment="CENTER_RIGHT" onMouseClicked="#exit" style="-fx-text-fill: white;" text="X" textFill="WHITE" />
+                            </children>
+                        </HBox>
+                    </children>
+                </HBox>
+                <VBox alignment="CENTER" layoutX="335.0" layoutY="150.0" prefHeight="200.0" prefWidth="250.0" styleClass="gradient">
+                    <children>
+                  <HBox alignment="CENTER" prefHeight="40.0" style="-fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;">
+                     <children>
+                        <TextField fx:id="nameField" alignment="TOP_LEFT" promptText="name" style="-fx-background-color: transparent;-fx-text-fill: white;" HBox.hgrow="ALWAYS" />
+                     </children>
+                     <VBox.margin>
+                        <Insets left="5.0" right="5.0" top="20.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="40.0" style="-fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;">
+                     <children>
+                        <TextField fx:id="surnameField" alignment="TOP_LEFT" promptText="surname" style="-fx-background-color: transparent;-fx-text-fill: white;" HBox.hgrow="ALWAYS" />
+                     </children>
+                     <VBox.margin>
+                        <Insets left="5.0" right="5.0" top="20.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="40.0" style="-fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;">
+                     <children>
+                        <TextField fx:id="emailField" alignment="TOP_LEFT" promptText="email" style="-fx-background-color: transparent;-fx-text-fill: white;" HBox.hgrow="ALWAYS" />
+                     </children>
+                     <VBox.margin>
+                        <Insets left="5.0" right="5.0" top="20.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="40.0" style="-fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;">
+                     <children>
+                        <TextField fx:id="passwordField" alignment="TOP_LEFT" promptText="password" style="-fx-background-color: transparent;-fx-text-fill: white;" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="5.0" right="5.0" top="20.0" />
+                     </VBox.margin>
+                  </HBox>
+                        <Button mnemonicParsing="false" onMouseClicked="#insert" prefHeight="35.0" prefWidth="100.0" style="-fx-background-color: #2f2f2fa3; -fx-background-radius: 100; -fx-font-family: Palatino; -fx-font-weight: bold;" text="Signup" textFill="WHITE" VBox.vgrow="ALWAYS">
+                     <VBox.margin>
+                        <Insets bottom="20.0" left="5.0" right="5.0" top="20.0" />
+                     </VBox.margin>
+                        </Button>
+                    </children>
+                </VBox>
+            </children>
+            <effect>
+                <DropShadow />
+            </effect>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <styleClass>
+            <String fx:value="main-menu" />
+            <String fx:value="back" />
+         </styleClass>
+        </AnchorPane>
+    </children>
+</VBox>

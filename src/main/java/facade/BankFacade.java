@@ -31,7 +31,7 @@ public class BankFacade {
         WelcomeToBank.WelcomeToBank();
     }
 
-    private Client findClient(String email, String password) {
+    public Client findClient(String email, String password) {
         for (Client client : clientList.getClientList()) {
             if (client.getAccount().getData().get(0).equals(email) && client.getAccount().getData().get(1).equals(password)) {
                 return client;
